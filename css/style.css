@@ -1,10 +1,8 @@
 html {
     scroll-behavior: smooth;
 }
-
 .main_content {
     height: 100vh;
-
 }
 .head {
     width: 1920px;
@@ -12,101 +10,70 @@ html {
     position: absolute;
     left: 0px;
     top: 0px;
-    background: #EEEFF1;
+    background-color: #EEEFF1;
 }
 .one_button {
-    height: 16px;
     width: 84px;
     left: 399px;
     top: 79px;
     position: absolute;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #34547A;
+
 }
 .two_button {
     position: absolute;
-    width: 100px;
-    height: 16px;
     left: 525px;
     top: 79px;
+    width: 84px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #000000;
 }
 .three_button {
     position: absolute;
-    width: 74px;
-    height: 16px;
+    width: 84px;
     left: 667px;
     top: 79px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #000000;
 }
 .four_button {
     position: absolute;
-    width: 86px;
-    height: 16px;
+    width: 84px;
     left: 783px;
     top: 79px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #000000;
 }
 .five_button {
     position: absolute;
-    width: 99px;
-    height: 16px;
+    width: 84px;
     left: 911px;
     top: 79px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #000000;
 }
 .design {
     position: absolute;
     width: 541px;
-    height: 45px;
     left: 399px;
     top: 257px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 48px;
-    line-height: 79px;
-    color: #000000;
 }
 .lorem {
     position: absolute;
     width: 540px;
-    height: 67px;
     left: 400px;
     top: 362px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     color: #727272;
 }
@@ -114,14 +81,11 @@ html {
 .napishi {
     position: absolute;
     width: 225px;
-    height: 65px;
     left: 399px;
     top: 494px;
     background: #34547A;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
@@ -131,30 +95,25 @@ html {
     position: relative;
     width: 1920px;
     height: 2464px;
-    background: #F9F9F9;
+    background-color: #F9F9F9;
 }
 .about {
     position: absolute;
     width: 403px;
-    height: 30px;
     left: 758px;
     top: 812px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-    color: #000000;
 }
 .lorem_about {
     position: absolute;
     width: 540px;
-    height: 67px;
     left: 690px;
     top: 892px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -214,7 +173,6 @@ html {
 .workback {
     position: absolute;
     width: 1920px;
-    height: 1004px;
     left: 0px;
     top: 1309px;
     background: #EEEFF1;
@@ -222,25 +180,20 @@ html {
 .hoiwork {
     position: absolute;
     width: 403px;
-    height: 30px;
     left: 758px;
     top: 1409px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-    color: #000000;
 }
 .loremwork {
     position: absolute;
     width: 540px;
-    height: 67px;
     left: 690px;
     top: 1489px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -265,12 +218,9 @@ html {
 
 .ivanov {
     position: absolute;
-    width: 130px;
-    height: 19px;
     left: 406px;
     top: 2363px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -278,12 +228,9 @@ html {
 }
 .prava {
     position: absolute;
-    width: 193px;
-    height: 12px;
     left: 406px;
     top: 2402px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
