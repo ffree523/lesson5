@@ -1,86 +1,61 @@
-html {
-    scroll-behavior: smooth;
+body {
+    margin: 0px;
 }
-.head {
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+.header{
     background-color: #EEEFF1;
+    width: 100%;
+    padding: 20px 20px 50px 20px;
+    margin: 0px;
 }
-.one_button {
+ul {
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 0px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 70px 10px;
+    margin-left: 90px;
+    position: relative;
     width: 84px;
-    left: 399px;
-    top: 79px;
-    position: absolute;
+    position: relative;
     font-family: 'Roboto';
     line-height: 26px;
     letter-spacing: 0.1em;
+}
 
-}
-.two_button {
-    position: absolute;
-    left: 525px;
-    top: 79px;
-    width: 84px;
-    font-family: 'Roboto';
-    line-height: 26px;
-    letter-spacing: 0.1em;
-}
-.three_button {
-    position: absolute;
-    width: 84px;
-    left: 667px;
-    top: 79px;
-    font-family: 'Roboto';
-    line-height: 26px;
-    letter-spacing: 0.1em;
-}
-.four_button {
-    position: absolute;
-    width: 84px;
-    left: 783px;
-    top: 79px;
-    font-family: 'Roboto';
-    line-height: 26px;
-    letter-spacing: 0.1em;
-}
-.five_button {
-    position: absolute;
-    width: 84px;
-    left: 911px;
-    top: 79px;
-    font-family: 'Roboto';
-    line-height: 26px;
-    letter-spacing: 0.1em;
-}
 .design {
-    position: absolute;
-    width: 541px;
-    left: 399px;
-    top: 257px;
+    position: relative;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 48px;
+    padding-left: 330px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    background-color: #EEEFF1;
+    width: 100%;
+
+
 }
 .lorem {
-    position: absolute;
-    width: 540px;
-    left: 400px;
-    top: 362px;
+    position: relative;
+    width: 100%;
     font-family: 'Roboto';
     font-weight: 400;
     line-height: 26px;
     color: #727272;
+    background-color: #EEEFF1;
+    padding-left: 330px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
-
 .napishi {
-    position: absolute;
+    position: relative;
     width: 225px;
-    left: 399px;
-    top: 494px;
-    background: #34547A;
+    background-color: #34547A;
     font-family: 'Roboto';
     font-weight: 400;
     line-height: 56px;
@@ -88,99 +63,79 @@ html {
     letter-spacing: 0.1em;
     color: #FFFFFF;
     text-decoration: none;
+    text-align: center;
+    padding: 23px 51px;
+    margin-left: 330px;
 }
-.body {
-    position: relative;
-    width: 100%;
-    background-color: #F9F9F9;
-    margin: 0px;
-}
+
 .about {
-    position: absolute;
-    width: 403px;
-    left: 758px;
-    top: 812px;
+    position: relative;
+    padding: 20px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    margin: 10px;
+
 }
 .lorem_about {
-    position: absolute;
-    width: 540px;
-    left: 690px;
-    top: 892px;
+    position: relative;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #727272;
+    padding: 10px;
 }
 .rabotu {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 250px;
-    left: 0px;
-    top: 1059px;
+    padding: 80px;
     background-color: #34547A;
-    margin: 0px;
+
 }
 .item1 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 409px;
-    top: 1159px;
+    padding: 20px;
+    margin-left: 340px;
 }
 .item2 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 595px;
-    top: 1159px;
+    padding: 20px;
 }
 .item3 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 785px;
-    top: 1159px;
+    padding: 20px;
 }
 .item4 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 975px;
-    top: 1159px;
+    padding: 20px;
 }
 .item5 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 1165px;
-    top: 1159px;
+    padding: 20px;
 }
 .item6 {
-    position: absolute;
+    position: relative;
     width: 141px;
-    height: 50px;
-    left: 1355px;
-    top: 1159px;
+    padding: 20px;
 }
 .workback {
-    position: absolute;
-    width: 1920px;
-    left: 0px;
-    top: 1309px;
+    position: relative;
+    width: 100%;
     background-color: #EEEFF1;
+    padding: 20px;
 }
 .hoiwork {
-    position: absolute;
-    width: 403px;
-    left: 758px;
-    top: 1409px;
+    position: relative;
+    padding: 20px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 32px;
@@ -188,10 +143,9 @@ html {
     text-align: center;
 }
 .loremwork {
-    position: absolute;
+    position: relative;
     width: 540px;
-    left: 690px;
-    top: 1489px;
+    margin-left: 750px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -200,24 +154,24 @@ html {
     color: #727272;
 }
 .youtube {
-    position: absolute;
+    position: relative;
     width: 1110px;
     height: 600px;
-    left: 405px;
-    top: 1613px;
+    margin-left: 450px;
+
 }
 .foot {
-    position: absolute;
-    width: 100%;
-    height: 151px;
-    left: 0px;
-    top: 2313px;
+    position: relative;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
     background-color: #34547A;
 }
 .ivanov {
-    position: absolute;
-    left: 406px;
-    top: 2363px;
+    position: relative;
+    margin-left: 460px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 21px;
@@ -225,14 +179,12 @@ html {
     color: #FFFFFF;
 }
 .prava {
-    position: absolute;
-    left: 406px;
-    top: 2402px;
+    position: relative;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
+    position: relative;
+    margin-left: 460px;
 }
-
-
